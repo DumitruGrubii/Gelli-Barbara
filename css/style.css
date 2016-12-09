@@ -302,7 +302,7 @@ a:focus {outline: none;text-decoration:none}
 .home-shrink .display-h{
 	-webkit-transition: all .1s ease;
 	letter-spacing: 10px;
-	margin-right: -20px;
+	margin-right: -9px;
 }
 
 .resume-pic {
@@ -679,13 +679,13 @@ h2.roles {
 /********************* TEAM ********************/
 #experience,
 #team{
-	padding-top: 0;
+	padding-top: 70px;
 	padding-bottom: 0;
 	background: rgba(34,34,34,1);
 	color: #fff;
 	background-size: cover;
 	background-attachment: fixed;
-	font-family:'GFS Didot';
+	font-family:'Source Sans Pro';
 }
 #experience:after,
 #team:after{
