@@ -312,7 +312,7 @@ a:focus {outline: none;text-decoration:none}
 }
 
 h2.roles {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 
@@ -1382,4 +1382,8 @@ and (orientation : portrait) {
 @media only screen and (max-width: 480px){
     .resume-pic,
 	.typed{ display: none; }
+}
+
+h5 {
+	font-size: 13px;
 }
