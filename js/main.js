@@ -3,16 +3,16 @@ $(document).ready(function () {
     "use strict";
 
     // Smooth Scroll to internal links
-    
+
 	$('#preloader').addClass('wow fadeOutUp display-0');
-	
+
     $('.scroll').smoothScroll({
         offset: -80,
         speed: 800
     });
-	
+
 	// WOW animations
-	
+
     new WOW().init();
 
     // Mobile Menu Toggle
@@ -51,7 +51,7 @@ $(document).ready(function () {
 	});
 
     // Slider backgrounds
-    
+
 	$('.slider').flexslider({ directionalNav: false });
     $('#home-slider').flexslider();
     $('#testimonials-slider').flexslider({
@@ -97,7 +97,7 @@ $(document).ready(function () {
         } else {
             $('#navigation').removeClass('show-nav');
         }
-	
+
         var scaleBg = -$(window).scrollTop() / 4;
 
         if (iOS === false) {
@@ -171,7 +171,7 @@ $(document).ready(function () {
     $('#contact-panel .overlay-close').on( 'click', function() {
       $('#contact-panel').removeClass('open');
     });
-	
+
 	//On Click Open Map
     $('#trigger-overlay2').on( 'click', function() {
       $('#map-panel').addClass('open');
@@ -179,16 +179,16 @@ $(document).ready(function () {
     $('#map-panel .overlay-close').on( 'click', function() {
       $('#map-panel').removeClass('open');
     });
-	
+
 	$(function () {
       $('[data-toggle="tooltip"]').tooltip()
     })
-	
+
 	  //Google Maps
   function initMap() {
-    var myLatlng = new google.maps.LatLng(51.498609000000000000,-0.133906000000024500); // <- Your latitude and longitude
+    var myLatlng = new google.maps.LatLng(44.854338, 11.651723); // <- Your latitude and longitude
     var styles = [{"featureType":"water","stylers":[{"visibility":"on"},{"color":"#acbcc9"}]},{"featureType":"landscape","stylers":[{"color":"#f2e5d4"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"color":"#c5c6c6"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#e4d7c6"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#fbfaf7"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#c5dac6"}]},{"featureType":"administrative","stylers":[{"visibility":"on"},{"lightness":33}]},{"featureType":"road"},{"featureType":"poi.park","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":20}]},{},{"featureType":"road","stylers":[{"lightness":20}]}]
-    
+
     var mapOptions = {
       zoom: 15,
       center: myLatlng,
@@ -202,14 +202,14 @@ $(document).ready(function () {
     var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
     var infowindow = new google.maps.InfoWindow({
-        content: "We are here!"
+        content: "Sono qui!"
     });
 
     var marker = new google.maps.Marker({
         position: myLatlng,
         map: map,
         icon: 'images/pin.png',
-        title: 'We are here!'
+        title: 'Sono qui!'
     });
 
     google.maps.event.addListener(marker, 'click', function() {
@@ -220,6 +220,6 @@ $(document).ready(function () {
   if ($('#map').length) {
     google.maps.event.addDomListener(window, 'load', initMap);
     $('#map').css('position', 'absolute');
-  } 
+  }
 
 });
