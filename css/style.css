@@ -13,7 +13,7 @@ section{ position: relative;}
 .page-header{ text-align: center; margin-bottom: 44px; border-bottom: none;}
 .page-header i{ font-size: 24px; }
 .page-header h4{ margin-top: 11px; }
-h1, h2, h3, h4, h5, h6 {color: #222;font-family: "Roboto Slab","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;font-weight: bold; text-transform:uppercase;letter-spacing: 3px;line-height: 1.2125em;text-rendering: optimizelegibility;}
+h1, h2, h3, h4, h5, h6 {color: #222;font-family: "Montserrat","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;font-weight: bold; text-transform:uppercase;letter-spacing: 3px;line-height: 1.2125em;text-rendering: optimizelegibility;}
 a {cursor: pointer;color: #FFF;}
 a:hover {text-decoration:none; color: #222;}
 a:focus {outline: none;text-decoration:none}
