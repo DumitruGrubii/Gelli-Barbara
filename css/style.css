@@ -214,7 +214,6 @@ a:focus {outline: none;text-decoration:none}
     height: 80px;
     top: 0;
     position: absolute;
-    transform: skew(-5deg, 0deg);
     width: 50px;
     z-index: -1;
 }
@@ -325,7 +324,6 @@ h2.roles {
     height: 150px;
     left: 0;
     position: absolute;
-    transform: skew(0deg, 4deg);
     width: 100%;
     z-index: 1;
 }
@@ -355,7 +353,6 @@ h2.roles {
     height: 150px;
     left: 0;
     position: absolute;
-    transform: skew(0deg, -4deg);
     width: 100%;
     z-index: 1;
 }
@@ -455,7 +452,6 @@ h2.roles {
     height: 130px;
     left: 0;
     position: absolute;
-    transform: skew(0deg, 4deg);
     width: 100%;
     z-index: 1;
 }
@@ -500,7 +496,6 @@ h2.roles {
     height: 150px;
     left: 0;
     position: absolute;
-    transform: skew(0deg, -4deg);
     width: 100%;
     z-index: -1;
 }
@@ -670,7 +665,6 @@ h2.roles {
     height: 150px;
     left: 0;
     position: absolute;
-    transform: skew(0deg, -4deg);
     width: 100%;
     z-index: 1;
 }
@@ -695,7 +689,6 @@ h2.roles {
     height: 150px;
     left: 0;
     position: absolute;
-    transform: skew(0deg, 4deg);
     width: 100%;
     z-index: -1;
 }
@@ -844,7 +837,6 @@ h4.organisation {
     height: 0px;
     left: 0;
     position: absolute;
-    transform: skew(0deg, 0deg);
     width: 100%;
     z-index: 1;
 }
@@ -855,7 +847,6 @@ h4.organisation {
     height: 150px;
     left: 0;
     position: absolute;
-    transform: skew(0deg, 4deg);
     width: 100%;
     z-index: 1;
 }
@@ -866,7 +857,6 @@ h4.organisation {
     height: 0px;
     left: 0;
     position: absolute;
-    transform: skew(0deg, 0deg);
     width: 100%;
     z-index: 1;
 }
@@ -877,7 +867,6 @@ h4.organisation {
     height: 150px;
     left: 0;
     position: absolute;
-    transform: skew(0deg, 4deg);
     width: 100%;
     z-index: 1;
 }
@@ -888,7 +877,6 @@ h4.organisation {
     height: 150px;
     left: 0;
     position: absolute;
-    transform: skew(0deg, -4deg);
     width: 100%;
     z-index: 1;
 }
@@ -1168,7 +1156,6 @@ blockquote {
     height: 0px;
     left: 0;
     position: absolute;
-    transform: skew(0deg, 0deg);
     width: 100%;
     z-index: 10;
 }
@@ -1179,7 +1166,6 @@ blockquote {
     height: 150px;
     left: 0;
     position: absolute;
-    transform: skew(0deg, 4deg);
     width: 100%;
     z-index: 10;
 }
