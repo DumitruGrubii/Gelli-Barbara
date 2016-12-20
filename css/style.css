@@ -180,7 +180,7 @@ a:focus {outline: none;text-decoration:none}
 	position: fixed;
 	top: -80px;
 	width: 100%;
-	background-color: rgba(255,255,255,0.8);
+	background-color: rgba(255,255,255,0.9);
 	max-height: 80px;
 	min-height: 80px;
 	z-index: 200;
@@ -440,7 +440,6 @@ h2.roles {
 	padding-bottom: 0;
 	background: url(../img/background.jpg) rgba(34,34,34,1);
 	color: #fff;
-	background-attachment: fixed;
 	font-family:'Montserrat';
 	font-weight: 500;
 }
@@ -449,7 +448,7 @@ h2.roles {
 	background: none repeat scroll 0 0 rgba(255,255,255,1);
     bottom: -100px;
     content: " ";
-    height: 130px;
+    height: 150px;
     left: 0;
     position: absolute;
     width: 100%;
@@ -461,7 +460,7 @@ h2.roles {
 
 #testimonials-slider{
 	position: relative;
-	font-size: 1.4em;
+	font-size: 1.0em;
 }
 
 #testimonials-slider .item{
@@ -1159,16 +1158,7 @@ blockquote {
     width: 100%;
     z-index: 10;
 }
-#contact:before{
-	background: none repeat scroll 0 0 rgba(34,34,34,1);
-    top: -70px;
-    content: " ";
-    height: 150px;
-    left: 0;
-    position: absolute;
-    width: 100%;
-    z-index: 10;
-}
+
 
 #contact-content{
 	background-color: rgba(247,247,247,0.9);
