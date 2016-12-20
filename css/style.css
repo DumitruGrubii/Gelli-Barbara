@@ -440,9 +440,9 @@ h2.roles {
 	padding-bottom: 0;
 	background: url(../img/background.jpg) rgba(34,34,34,1);
 	color: #fff;
-	background-size: cover;
 	background-attachment: fixed;
-	font-family:'GFS Didot';
+	font-family:'Montserrat';
+	font-weight: 500;
 }
 
 #testimonials:after{
