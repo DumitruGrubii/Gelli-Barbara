@@ -35,14 +35,14 @@ a:focus {outline: none;text-decoration:none}
     display: none;
 }
 .overlay {
-    position: absolute;
+  position: absolute;
 	width: 100%;
 	height: 100%;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: rgba(0,0,0,0.5);
+	background: rgba(0,0,0,0);
 }
 
 /** SPACING **/
@@ -83,6 +83,10 @@ a:focus {outline: none;text-decoration:none}
 
 
 /** BUTTONS **/
+
+.carousel-indicators {
+	display: none;
+}
 
 .btn{
 	padding: 15px 25px 15px 25px;
@@ -263,7 +267,7 @@ a:focus {outline: none;text-decoration:none}
 }
 
 #menu li{
-	margin-right: 22px;
+	margin-right: 52px;
 	float: left;
 }
 
@@ -275,7 +279,7 @@ a:focus {outline: none;text-decoration:none}
 
 #home{
 	overflow: hidden;
-	background: #222;
+	background: #469bcc;
 }
 
 #home-slider{
@@ -311,7 +315,7 @@ a:focus {outline: none;text-decoration:none}
 }
 
 h2.roles {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 
@@ -340,6 +344,34 @@ h2.roles {
 
 
 /********************* SERVICES ********************/
+
+#occupation{
+	background-color: #fff;
+	padding-top: 175px;
+}
+
+#occupation:after{
+	background: none repeat scroll 0 0 #fff;
+    bottom: -100px;
+    content: " ";
+    height: 150px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+#occupation .callout-wrapper{ margin-top: 44px; }
+
+.service{
+	text-align: center;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	transition: all .2s ease;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+}
+
 
 #services{
 	background-color: #f7f7f7;
@@ -1356,10 +1388,33 @@ and (orientation : portrait) {
 }
 
 @media only screen and (max-width: 480px){
-    .resume-pic,
 	.typed{ display: none; }
 }
 
+
+
 h5 {
 	font-size: 13px;
+}
+
+@media only screen and (min-width: 100px){
+	.logo_barbara{width: 40px; height: 40px;}
+
+}
+
+@media only screen and (min-width: 300px){
+	.logo_barbara{width: 100px; height: 100px;}
+
+}
+
+@media only screen and (max-width: 350px){
+	.overlay {
+	  position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
 }

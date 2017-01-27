@@ -193,10 +193,10 @@ $(document).ready(function () {
       zoom: 15,
       center: myLatlng,
 	  mapTypeId: google.maps.MapTypeId.ROADMAP,
-      mapTypeControl: false,
+      mapTypeControl: true,
       disableDefaultUI: true,
-      zoomControl: false,
-      scrollwheel: false,
+      zoomControl: true,
+      scrollwheel: true,
       styles: styles
     }
     var map = new google.maps.Map(document.getElementById('map'), mapOptions);
@@ -208,7 +208,7 @@ $(document).ready(function () {
     var marker = new google.maps.Marker({
         position: myLatlng,
         map: map,
-        icon: 'images/pin.png',
+        icon: 'img/pin_40.png',
         title: 'Sono qui!'
     });
 
