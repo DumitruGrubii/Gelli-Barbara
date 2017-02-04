@@ -314,9 +314,6 @@ a:focus {outline: none;text-decoration:none}
 	background-size: cover;
 }
 
-h2.roles {
-    font-size: 20px;
-}
 
 
 /********************* ABOUT ********************/
@@ -1387,8 +1384,33 @@ and (orientation : portrait) {
 
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 500px){
+	.logo_barbara {display: none;}
 	.typed{ display: none; }
+	.gelli_barbara{font-size: 12px;
+	margin-top: -20px;}
+	h3.roles{font-size: 8px;}
+	h3.roles{font-size: 0px;}
+}
+
+@media only screen and (max-width: 810px){
+	.logo_barbara {max-width: 50px;
+	max-height: 50px; margin-top: -20px;}
+	.typed{ display: none; }
+	.gelli_barbara{font-size: 15px;}
+	h3.roles{font-size: 12px;}
+	h3.roles{font-size: 12px;}
+}
+
+@media only screen and (max-width: 690px){
+	.logo_barbara {max-width: 50px;
+	max-height: 50px; margin-top: -20px;}
+	.typed{ display: none; }
+	.gelli_barbara{font-size: 15px;}
+	h3.roles{font-size: 12px;}
+	h3.roles{font-size: 12px;}
+	.scroll{display: none;}
+
 }
 
 
