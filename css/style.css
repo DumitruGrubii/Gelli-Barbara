@@ -723,7 +723,7 @@ a:focus {outline: none;text-decoration:none}
 #team-slider,
 #experience-slider{
 	position: relative;
-	font-size: 1.4em;
+	font-size: 1.1em;
 }
 
 #team-slider .item  {
@@ -1395,7 +1395,7 @@ and (orientation : portrait) {
 
 @media only screen and (max-width: 810px){
 	.logo_barbara {max-width: 50px;
-	max-height: 50px; margin-top: -20px;}
+	max-height: 50px; margin-top: -40px;}
 	.typed{ display: none; }
 	.gelli_barbara{font-size: 15px;}
 	h3.roles{font-size: 12px;}
@@ -1410,7 +1410,6 @@ and (orientation : portrait) {
 	h3.roles{font-size: 12px;}
 	h3.roles{font-size: 12px;}
 	.scroll{display: none;}
-
 }
 
 
